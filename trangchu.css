@@ -1,0 +1,526 @@
+*{
+  font-family: Candara Light;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+  }
+
+#khung {
+  width: 1260px;
+  margin: auto;
+  margin-top: 40px;
+}
+/* khung đầu */
+#khung_dau {
+  min-height: 300px;
+}
+#tieu_de {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 15%;
+}
+.logo img {
+  width: 80%;
+  height: 70%;
+  object-fit: cover;
+}
+.tim_kiem {
+  width: 40%;
+  position: relative;
+}
+.tim_kiem input {
+  padding: 12px 40px;
+  width: 90%;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(233, 235, 237);
+
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.4px;
+}
+.tim_kiem i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(131, 128, 128);
+  font-size: 1.5rem;
+}
+.tro_giup {
+  width: 45%;
+  display: flex;
+}
+.tro_giup1 {
+  width: 65%;
+  font-size: 0.8rem;
+}
+.tro_giup1 i {
+  font-size: 1.2rem;
+}
+.tro_giup1 a {
+  padding: 0px 10px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+
+  font-family: "Poppins", sans-serif;
+}
+.tro_giup2 {
+  width: 35%;
+}
+.tro_giup2 span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+.tro_giup2 i {
+  font-size: 1.3rem;
+  padding: 0px 6px;
+}
+#menu {
+  height: 70px;
+  display: flex;
+}
+
+#menu p {
+  margin: 7px 20px;
+  border: 1px solid rgb(219, 214, 214);
+  padding: 10px 20px;
+  border-radius: 10px;
+  height: 40px;
+  opacity: 90%;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 50;
+}
+#menu p a:hover {
+  color: rgb(91, 91, 86);
+}
+#banner {
+  height: 450px;
+  display: flex;
+}
+#banner_trai {
+  width: 65%;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(199, 199, 238);
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 4s;
+}
+.image-container img:first-child {
+  z-index: 1;
+}
+.image-container img:last-child {
+  z-index: 2;
+  opacity: 0;
+}
+.image-container:hover img:last-child {
+  opacity: 100%;
+}
+#banner_phai {
+  width: 35%;
+}
+.banner_tren {
+  height: 50%;
+  margin-left: 20px;
+}
+.khung_tren {
+  width: 92%;
+  height: 95%;
+
+  position: relative;
+}
+.khung_tren img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(199, 199, 238);
+  transition: 1.3s;
+}
+.khung_tren img:hover {
+  transform: scale(1.1);
+}
+.banner_duoi {
+  height: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.khung_duoi {
+  width: 92%;
+  height: 95%;
+
+  position: relative;
+}
+.khung_duoi img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(199, 199, 238);
+  transition: 1.3s;
+}
+.khung_duoi img:hover {
+  transform: scale(1.1);
+}
+
+.menu3{
+  display: flex;
+  margin-top:5px ;
+ 
+ 
+ 
+}
+.menu3 a{
+  color: white;
+ 
+  }
+  .cot{
+      width: 350px;
+      height: 300px;
+      
+  }
+  .cot_li2{
+      width: 350px;background-color: red;
+      height: 50px;border: 0px ;
+      display: block;padding:15px;
+      border-radius: 10px;
+  }
+  .cot_li{
+      width: 350px;
+      height: 50px;border: 1px solid rgba(152, 151, 151, 0.8);
+      display: block;padding:15px;
+      border-radius: 10px;
+  }
+.cot_li:hover{
+  background-color: red;
+}
+.cot_li a{
+  color: black;
+}
+.cot2{
+  margin-left: 40px;
+  
+}
+.trong{
+  display: flex;
+  color: white;
+}
+.tr{
+  width: 50px;
+  height: 50px;
+  background-color: red; display: block;padding:17px;
+}
+.tr2{
+  width: 200px;
+  height: 50px;border: 0px ;
+  display: block;padding:15px;background-color: red;
+  border-radius: 10px;
+}
+
+.tr3{
+  width:660px;
+ 
+}
+.trong2{
+  display: flex;
+  padding-top: 30px;
+}
+
+
+.khung1,.hinh2{
+  width: 160px;
+  height: 300px;
+  position: relative;border-radius: 10px;
+}
+P{
+  margin-top: 10px;
+  text-align: center;
+}
+.khung3{
+margin-top: 20px;
+text-align: center;
+}
+.khung3 p2{
+  color: gray;
+  text-decoration: line-through;
+  }
+  .khung3 p1{
+    color: red;
+  }
+  .khung3 p3{
+    color: gray;
+  }
+.gg{
+  position: absolute;
+  width:  50px;
+  height: 25px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 10px;
+  }
+  .khung4{
+    display: flex;
+    padding-top: 2px;
+    
+ }
+ button{
+  width: 100px;
+  height: 30px;margin-left:13px;
+  background-color: aquamarine;
+  border: none;border-radius: 4px;
+}
+button a:hover{
+ color: blue;
+ margin-top: 5px;
+}
+.menu4{
+  display: flex;
+  margin-top: 5px;
+}
+.menu4 a{
+color:white;
+}
+.tron{
+  display: flex;
+  color:white;
+}
+.t{
+  width: 50px;
+  height: 50px;
+  background-color: red; display: block;padding:17px;
+   border-radius: 10px;
+  
+}
+.t2{
+  width: 300px;
+  height: 50px;border: 0px ;
+  display: block;padding:15px;background-color: red;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.t3{
+  width:1040px;
+
+}
+.tron2{
+  display: flex;
+  padding-top: 30px;
+}
+.khun{
+  width: 300px;margin-left: 15px;
+  border:1px solid rgb(238, 224, 224);height: 422px;
+  border-radius: 10px;
+}
+.khun1,.hin2{
+  width: 250px;
+  height: 250px;
+  position: relative;border-radius: 10px;
+}
+P{
+  margin-top: 10px;
+  text-align: center;
+}
+.khun3{
+  margin-top: 20px;
+  text-align: center;
+  }
+  .khun3 p2{
+  color: gray;
+  text-decoration: line-through;
+ 
+  }
+  .khun3 p1{
+    color: red;
+  }
+  .khun3 p3{
+    color: gray;
+    
+  }
+  .khung a,.khun a{
+    color: black;
+  }
+  .khun4{
+    display: flex;
+    padding-top: 15px;
+   }
+   button[class="hen"]{
+     width: 100px;
+     height: 30px;margin-left:50px;
+     background-color: aquamarine;
+     border: none;
+     border: none;border-radius: 5px;
+   }
+   button[class="hen"]:hover{
+     margin-top: 5px;color: blue;
+   }
+   .menu5{
+    width: 1400px;
+    height: 200px;
+    background-color: pink;
+    margin-top: 5px;
+    }
+    
+    .hinh3{ 
+      width: 120px;
+      height: 120px;
+      border-radius: 120px;margin-left: 100px;
+      padding-top: 5px;
+    }
+    
+  
+    #footer{
+      height: 400px;
+       margin-top: 20px;
+     }
+     .footer_dau{
+       height: 80px;
+       background-color: #3dbde7;
+       border-radius: 10px;
+       display: flex;
+     }
+     .footer_trai{
+       width: 55%;
+       margin: 10px 15px;
+     }
+     .footer_trai span{
+       font-size: 1.5rem;
+       font-weight: bold;
+       color: #ffffff;
+     }
+     .footer_trai p{
+       margin-top: 5px;
+       color:white;
+      text-align: left;
+      margin-left: 0;
+      padding-left: 0;
+     }
+     .footer_phai{
+       width: 45%;
+     
+     }
+     .footer_phai input{
+       padding: 14px 20px;
+       width: 80%;
+     margin-top: 18px;
+     margin-left: 80px;
+     border-radius: 50px;
+     border: none;
+     
+     }
+     .footer_giua{
+       height:250px;
+       margin-top: 50px;
+       display: flex;
+     
+     }
+     .footer_giua1{
+       width: 22%;
+       margin: 0px 10px;
+      
+     }
+     .footer_giua p{
+     text-align: left;
+     margin-left: 0;
+     padding-left: 0;
+    }
+     #logo_thuonghieu{
+       width: 70%;
+       height: 80px;
+       
+     }
+    
+
+     #logo_thuonghieu img{
+       height: 100%;
+       width: 100%;
+     }
+     #icon_1 i{
+       margin: 6px 8px;
+       font-size: 2.2rem;
+       margin-top: 10px;
+     
+     }
+     .footer_giua2{
+     width: 28%;
+     
+     }
+     .footer_giua2 span{
+       text-transform: uppercase;
+       font-weight: bold;
+     }
+     .footer_giua2 p{
+       margin-top: 12px;
+     
+     }
+     .footer_giua3{
+       width: 30%;
+     
+     }
+     #menu_ul1{
+       margin-top: 20px;
+     }
+     .menu_li1{
+       margin: 14px 0px;
+     }
+     .menu_li1 a:hover{
+       color:#3dbde7;
+     }
+     .menu_li1 i{
+       font-size: 0.4rem;
+     
+     }
+     .footer_giua4{
+       width: 20%;
+     }
+     #ke_ngang{
+       border-bottom: 1px solid black;
+     }
+     .footer_cuoi{
+       display: flex;
+       height: 40px;
+     }
+     .footer_trai1{
+       width: 50%;
+     margin-top: 10px;
+     opacity: 80%;
+     font-size: 0.9rem;
+     }
+     .footer_phai1{
+       width: 50%;
+       display: flex;
+        margin-left: 20%;
+     }
+     .footer_boder{
+     
+     
+       margin: 0px 10px;
+     }
+     .footer_boder img{
+       width: 100%;
+       height: 100%;
+     }
+     
+     
+     
+     
